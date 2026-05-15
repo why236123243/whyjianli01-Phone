@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>吴浩宇 - 个人简历与作品集</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/league.css">
+<style>
+	/* 修复移动端文字过小问题 */
+        @media screen and (max-width: 600px) {
+            h1 { font-size: 1.8em !important; }
+            h2 { font-size: 1.5em !important; }
+            p, li { font-size: 0.9em !important; }
+            .reveal .controls { transform: scale(1.5) !important; } /* 移动端按钮调小一点 */
+            video { width: 90% !important; } /* 视频撑满手机屏幕 */
+        }
+
+        /* 修复你之前 style 写错的语法问题 */
+        /* 不要把 class 名字写进 style="..." 里，那是错误的语法 */
+        .slide-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 10px auto;
+        }
+        
+        /* 正确的图片样式类 */
+        .my-img {
+            border: 3px solid #444;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            max-width: 90%;
+            margin: 10px auto;
+            display: block;
+        }
+
+        /* 保持原版的深色酷炫，但给图片和容器加上精致的框 */
+        .slide-card {
+            background: rgba(255, 255, 255, 0.05); /* 半透明深色卡片 */
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 10px auto;
+        }
+
+        img, video {
+            border: 3px solid #444;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            max-height: 400px !important;
+            margin: 10px !important;
+        }
+
+        /* 2. 悬浮侧边目录样式 */
+        .side-nav {
+            position: fixed; left: -150px; top: 20%; width: 150px;
+            background: rgba(0,0,0,0.8); transition: 0.3s;
+            padding: 20px; z-index: 100; border-radius: 0 10px 10px 0;
+        }
+        .side-nav:hover { left: 0; } /* 鼠标悬停显示 */
+        .side-nav a { color: white; display: block; margin-bottom: 15px; font-size: 0.8em; text-decoration: none; }
+
+        /* 统一居中容器 */
+        .img-container { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+        
+        /* 放大右下角的翻页按钮 */
+        .reveal .controls { transform: scale(3); }
+        .reveal .progress span { background: #e67e22 !important;}
+	.reveal .progress {height: 20px; }
+    </style>
+
+</head>
+<body>
+
+    <!-- 悬浮目录 -->
+    <nav class="side-nav">
+        <a href="#/0">首页</a>
+        <a href="#/1">核心优势</a>
+        <a href="#/2">工作经历-雅琪家具</a>
+        <a href="#/3">工作经历-华为杭研</a>
+        <a href="#/4">工作经历-华宇软件</a>
+	<a href="#/5">成果展示</a>
+	<a href="#/6">视频案例</a>
+	<a href="#/7">联系方式</a>
+    </nav>
+
+
+    <div class="reveal">
+        <div class="slides">
+            <!-- 个人情况 -->
+            <section>
+                <h1>吴浩宇</h1>
+               <p><small>男 | 年龄 27</small></p>
+                <p><small>6年工作经验 | 软件开发+跨境电商</small></p>
+                <p>项目意向：TK/亚马逊美区/俄罗斯中亚</p>
+		<br>
+		<p style="font-size: 0.6em; color: #888;">说明：按 ESC全览目录；按F全屏模式；右侧按钮可翻页</p>
+            </section>
+
+            <!-- 个人优势 -->
+            <section>
+                <h2>核心优势</h2>
+                <ul style="font-size: 0.8em;">
+	   	    <li><strong>教育背景：</strong>985本科，学习能力强，在校多奖项</li>
+		   <br>
+                    <li><strong>技术背景：</strong>IT开发，擅长自动化工具开发与数据分析</li>
+ 		   <br>
+                    <li><strong>TK操盘手：</strong>0-1起盘，自制视频多次登顶小类目Top榜</li>
+	            <br>
+                    <li><strong>亚马逊美区：</strong>接手滞销Listing扭亏为盈，单listing月净利10w</li>
+		     <br>
+                    <li><strong>团队管理：</strong>2年8-15人团队管理经验，目标导向、跨部门沟通</li>
+                </ul>
+            </section>
+
+            <!-- 工作经历：雅琪家具 -->
+            <section>
+                <section>
+                    <h3>工作经历：雅琪家具</h3>
+                    <p><small>抖音部 | 国外运营部</small></p>
+                    <p><small>TK美区操盘手 + 亚马逊运营</small></p>
+                    <p style="font-size: 0.85em; color: #888;">2024.2-至今</p>
+			<br>
+                    <p style="font-size: 0.4em; color: #888;">向下翻页查看细节，向右翻页进入下一章</p>
+                </section>
+
+                <section>
+                    <p style="font-size: 0.85em"><strong>运营模式：</strong>重自制，轻达人(实拍做质，AI扩量)</p>
+                    <p style="font-size: 0.85em; color: #888;"><small>说明:自制视频起盘(公司要求)， 25年9月公司同意开始铺达人</small></p>
+		    <p style="font-size: 0.85em"><strong>团队结构：</strong>7人自制内容团队、3人运营团队</p>
+                    <p style="font-size: 0.85em; color: #888;"><small>输出视频公司国、内外事业部全网使用</small></p>
+                </section>
+                <section>
+                    <h3>TK美区运营成果</h3>
+		   <p style="font-size: 0.85em; color: #888;">2024.7-至今</p>
+                    <ul style="font-size: 0.7em;">
+                        <li>日均 GMV 5,000-6,000 美金</li>
+                        <li>自制视频 ROI 4-6，净利润率 26%+</li>
+			<li>梳妆台、床头柜多次打到类目短视频榜单TOP</li>
+                        <li>百万级自制视频 40+ 条，产品&品牌月均曝光 700-1100w</li>
+			<li>ins爆款视频实现多平台引流，有力支撑亚马逊、wayfair、独立站高客单</li>
+                    </ul>
+                </section>
+		<section>
+                    <h3>亚马逊美区运营成果</h3>
+		    <p style="font-size: 0.85em; color: #888;">2025.10-至今</p>
+                    <ul style="font-size: 0.7em;">
+                        <li>遵公司安排解决滞销品问题，将滞销品打爆、断货。月净利润10w+</li>
+                        <li>今年4月中旬开始在做自己开发的新品</li>
+			<li>亚马逊店铺经验较少，但本质逻辑相通，可无压力快速学习掌握</li>
+                    </ul>
+                </section>
+
+            </section>
+
+       	<!-- 工作经历：华为杭研 -->
+            <section>
+                <section>
+                    <h3>工作经历：华为(杭研所)</h3>
+                    <p><small>数据通信(ICT)</small></p>
+                    <p><small>Java开发兼任团队ICE</small></p>
+                    <p style="font-size: 0.85em; color: #888;">2021.12-2023.11</p>
+			<br>
+                    <p style="font-size: 0.4em; color: #888;">向下翻页查看细节，向右翻页进入下一章</p>
+                </section>
+
+                <section>
+                    <p style="font-size: 0.85em"><strong>参与项目：</strong>华为乾坤云(ToB安全产品)</p>
+		    <p style="font-size: 0.85em"><strong>所在团队：</strong>边界防护与响应(BPR)</p>
+                </section>
+                
+		<section>
+                    <h3>主要工作</h3>
+		    <p style="font-size: 0.9em"><strong>Java开发</strong> </p>
+                   <ul style="font-size: 0.7em;">
+                        <li>事件管理、响应 2个微服务相关功能开发</li>
+                        <li>自动化测试用例开发</li>
+                    </ul>
+		<p style="font-size: 0.9em"><strong>团队CIE</strong> </p>
+		<ul style="font-size: 0.7em;">
+                        <li>团队19个微服务DevOps、CICD</li>
+                        <li>跨团队接口人</li>
+			<li>各类OP版本与团队相关环境基础建设或服务迁移</li>
+                    </ul>
+                </section>
+		
+		<section>
+                    <h3>获奖情况</h3>
+                   <ul style="font-size: 0.7em;">
+                        <li>①数通大部门金网络奖通报</li>
+                        <li>②转正3个月即获加薪名额</li>
+                        <li>③1年内通过华为内部专业级开发岗考试</li>
+                    </ul>
+                </section>
+
+            </section>
+
+
+<!-- 工作经历：华宇软件(大连) -->
+            <section>
+                <section>
+                    <h3>工作经历：华宇软件</h3>
+                    <p><small>大数据开发部</small></p>
+                    <p><small>Java开发</small></p>
+                    <p style="font-size: 0.85em"><small><strong>参与项目：</strong>较多 (定制服务开发)</small></p>
+                    <p style="font-size: 0.85em; color: #888;">2020.7-2021.10</p>
+			<br>
+                    <p style="font-size: 0.4em; color: #888;">向下翻页查看细节，向右翻页进入下一章</p>
+                </section>
+                
+		<section>
+                    <h3>项目经历</h3>
+
+		    <p style="font-size: 0.9em"><strong>浙江辖区绩效项目</strong> </p>
+                   <ul style="font-size: 0.7em;">
+                        <li>在项目中发现并修改历史版本代码冗余及逻辑错误</li>
+                        <li>项目发布后收获浙江省检察院客户的表扬信</li>
+                    </ul>
+
+		<p style="font-size: 0.9em"><strong>北京海淀区OA系统</strong> </p>
+		<ul style="font-size: 0.7em;">
+                        <li>办公用品管理系统开发</li>
+                        <li>发现数据结构设计漏洞，节约团队成本</li>
+                    </ul>
+
+		<p style="font-size: 0.9em"><strong>新智图高级查询系统</strong> </p>
+		<ul style="font-size: 0.7em;">
+                        <li>法官自定义查询模块新功能设计、开发及运维</li>
+                        <li>凭借对Bitmap算法的深入了解优化查询方案，帮助团队性能瓶颈问题</li>
+                    </ul>
+
+                </section>
+            </section>
+
+
+            <!-- 作品集展示板块 (你后续可以在这里填图) -->
+            <section>
+                <section>
+                    <h2>成果展示：TK自制视频-1</h2>
+	        	<p style="font-size: 0.85em; color: #888;">桌子类目总榜第2，短视频帮第1</p>
+                    <img src="TK/CTG003类目排名.png" class="my-img">
+		   <img src="TK/SZT012类目排名1.png" class="my-img">
+                </section>
+
+                <section>
+                    <h2>成果展示：TK自制视频-2</h2>
+	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频榜第2</p>
+                    <img src="TK/SZT012类目排名1.png" class="my-img">
+		   <img src="TK/SZT012类目排名2.png" class="my-img">
+                </section>
+
+                <section>
+                    <h2>成果展示：TK自制视频-3</h2>
+	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频帮第4</p>
+                    <img src="TK/SZT012类目排名2.png" class="my-img">
+		   <img src="TK/SZT012类目排名3.png" class="my-img">
+                </section>
+
+		<section>
+                    <h2>成果展示：TK自制视频-4</h2>
+	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频帮第6</p>
+                    <img src="TK/SZT012类目排名3.png" class="my-img">
+                    <img src="TK/SZT012类目排名3.png" class="my-img">
+                </section>
+
+		<section>
+                    <h2>成果展示：TK自制视频-5</h2>
+	        	<p style="font-size: 0.85em; color: #888;">梳妆台最爆视频单日销售额</p>
+                    <img src="TK/SZT012单日销量.png" class="my-img">
+                </section>
+
+                <section>
+                    <h2>成果展示：TK官方推荐</h2>
+			<p style="font-size: 0.85em; color: #888;">类目头商闭门会</p>
+                    <img src="TK/线下闭门会.jpeg" class="my-img">
+                </section>
+
+                <section>
+                    <h2>成果展示：亚马逊优化</h2>
+			<p style="font-size: 0.85em; color: #888;">8月、9月利润(接手前)</p>
+                    <img src="亚马逊/8月利润.png" class="my-img">
+                    <img src="亚马逊/9月利润.png" class="my-img">
+                </section>
+		<section>
+                    <h2>成果展示：亚马逊优化</h2>
+			<p style="font-size: 0.85em; color: #888;">10月、11月利润</p>
+                    <img src="亚马逊/10月利润.png" class="my-img">
+                    <img src="亚马逊/11月利润.png" class="my-img">
+                </section>
+
+		<section>
+                    <h2>成果展示：自制BI报表</h2>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI1.png" class="my-img">
+                </section>
+		<section>
+                    <h2>成果展示：自制BI报表</h2>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI2.png" class="my-img">
+                </section>
+		<section>
+                    <h2>成果展示：自制BI报表</h2>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI3.png" class="my-img">
+                </section>
+		<section>
+                    <h2>成果展示：自制BI报表</h2>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI4.png" class="my-img">
+                </section>
+
+		<section>
+                    <h2>成果展示：华为获奖</h2>
+                    <img src="华为/金网络.png" class="my-img">
+                </section>
+
+            </section>
+
+<section>
+<!--视频展示-->
+<section>
+    			<h2>TK爆款视频案例</h2>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        		<source src="SZT012爆款.mp4" type="video/mp4">
+        		您的浏览器不支持 HTML5 视频标签。
+    			</video>
+    			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">410W播放量，单日最高1.5w美金，广告持续跑近1年</p>
+		</section>
+		<section>
+    			<h2>AI视频案例1</h2>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        		<source src="床头柜AI视频.mp4" type="video/mp4">
+        		您的浏览器不支持 HTML5 视频标签。
+    			</video>
+    			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">实拍视频素材库+AI扩量案例</p>
+		</section>
+		<section>
+    			<h2>AI视频案例2</h2>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        		<source src="梳妆台AI视频.mp4" type="video/mp4">
+        		您的浏览器不支持 HTML5 视频标签。
+    			</video>
+    			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">实拍视频素+AI换脸对口型案例</p>
+		</section>
+		<section>
+    			<h2>纯AI视频案例</h2>
+    			<video width="60%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        		<source src="无产品纯AI视频.mp4" type="video/mp4">
+        		您的浏览器不支持 HTML5 视频标签。
+    			</video>
+    			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">无实际产品，无3D模型，根据网图搓视频，业余帮朋友做的，美区ToB外贸公司，用于会议介绍产品(成功获客)</p>
+
+
+</section>
+
+</section>
+
+            <!-- 结束页 -->
+            <section>
+                <h2>联系方式</h2>
+                <p>📞电话/微信: 15542396118</p>
+                <p>📧邮箱: why236123243@outlook.com</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+    <script>
+        Reveal.initialize({ hash: true, transition: 'convex' });
+    </script>
+</body>
+</html>
