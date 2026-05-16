@@ -2,40 +2,10 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <!-- 关键：添加 viewport，告诉手机按屏幕宽度渲染，不要缩小 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>吴浩宇 - 个人简历与作品集</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/league.css">
 <style>
-	/* 修复移动端文字过小问题 */
-        @media screen and (max-width: 600px) {
-            h1 { font-size: 1.8em !important; }
-            h2 { font-size: 1.5em !important; }
-            p, li { font-size: 0.9em !important; }
-            .reveal .controls { transform: scale(1.5) !important; } /* 移动端按钮调小一点 */
-        }
-
-        /* 修复你之前 style 写错的语法问题 */
-        /* 不要把 class 名字写进 style="..." 里，那是错误的语法 */
-        .slide-card {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 20px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            margin: 10px auto;
-        }
-        
-        /* 正确的图片样式类 */
-        .my-img {
-            border: 3px solid #444;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-            max-width: 90%;
-            margin: 10px auto;
-            display: block;
-        }
-
         /* 保持原版的深色酷炫，但给图片和容器加上精致的框 */
         .slide-card {
             background: rgba(255, 255, 255, 0.05); /* 半透明深色卡片 */
@@ -82,8 +52,9 @@
         <a href="#/3">工作经历-华为杭研</a>
         <a href="#/4">工作经历-华宇软件</a>
 	<a href="#/5">成果展示</a>
-	<a href="#/6">视频案例</a>
-	<a href="#/7">联系方式</a>
+	<a href="#/6">自动化报表</a>
+	<a href="#/7">视频案例</a>
+	<a href="#/8">联系方式</a>
     </nav>
 
 
@@ -96,7 +67,7 @@
                 <p><small>6年工作经验 | 软件开发+跨境电商</small></p>
                 <p>项目意向：TK/亚马逊美区/俄罗斯中亚</p>
 		<br>
-		<p style="font-size: 0.6em; color: #888;">说明：触屏滑动 或 通过右侧按钮 进行翻页</p>
+		<p style="font-size: 0.6em; color: #888;">说明：按 ESC全览目录；按F全屏模式；右侧按钮可翻页</p>
             </section>
 
             <!-- 个人优势 -->
@@ -240,124 +211,126 @@
                 <section>
                     <h2>成果展示：TK自制视频-1</h2>
 	        	<p style="font-size: 0.85em; color: #888;">桌子类目总榜第2，短视频帮第1</p>
-                    <img src="TK/CTG003类目排名.png" class="my-img">
+                    <img src="TK/CTG003类目排名.png" style="slide-card;img-container;">
                 </section>
 
                 <section>
                     <h2>成果展示：TK自制视频-2</h2>
 	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频榜第2</p>
-                    <img src="TK/SZT012类目排名1.png" class="my-img">
+                    <img src="TK/SZT012类目排名1.png" style="slide-card;img-container;">
                 </section>
 
                 <section>
                     <h2>成果展示：TK自制视频-3</h2>
 	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频帮第4</p>
-                    <img src="TK/SZT012类目排名2.png" class="my-img">
-                </section>
+                    <img src="TK/SZT012类目排名2.png" style="max-height: 500px;.slide-card;">
+        		</section>
 
-		<section>
+				<section>
                     <h2>成果展示：TK自制视频-4</h2>
 	        	<p style="font-size: 0.85em; color: #888;">梳妆台类目短视频帮第6</p>
-                    <img src="TK/SZT012类目排名3.png" class="my-img">
+                    <img src="TK/SZT012类目排名3.png" style="max-height: 500px;.slide-card;">
                 </section>
 
-		<section>
+				<section>
                     <h2>成果展示：TK自制视频-5</h2>
 	        	<p style="font-size: 0.85em; color: #888;">梳妆台最爆视频单日销售额</p>
-                    <img src="TK/SZT012单日销量.png" class="my-img">
+                    <img src="TK/SZT012单日销量.png" style="max-height: 500px;.slide-card;">
                 </section>
 
                 <section>
                     <h2>成果展示：TK官方推荐</h2>
 			<p style="font-size: 0.85em; color: #888;">类目头商闭门会</p>
-                    <img src="TK/线下闭门会.jpeg" class="my-img">
+                    <img src="TK/线下闭门会.jpeg" style="max-height: 500px;.slide-card;">
                 </section>
 
                 <section>
                     <h2>成果展示：亚马逊优化</h2>
 			<p style="font-size: 0.85em; color: #888;">8月利润(接手前)</p>
-                    <img src="亚马逊/8月利润.png" class="my-img">
-                </section>
-                <section>
+                    <img src="亚马逊/8月利润.png" style="max-height: 300px;.slide-card;">
+        		</section>
+
+				<section>
                     <h2>成果展示：亚马逊优化</h2>
 			<p style="font-size: 0.85em; color: #888;">9月利润(接手前)</p>
-                    <img src="亚马逊/9月利润.png" class="my-img">
-                </section>
-		<section>
+                    <img src="亚马逊/9月利润.png" style="max-height: 300px;.slide-card;">
+        		</section>
+				<section>
                     <h2>成果展示：亚马逊优化</h2>
 			<p style="font-size: 0.85em; color: #888;">10月利润</p>
-                    <img src="亚马逊/10月利润.png" class="my-img">
-                </section>
-		<section>
+                    <img src="亚马逊/10月利润.png" style="max-height: 300px;.slide-card;">
+        		</section>
+				<section>
                     <h2>成果展示：亚马逊优化</h2>
 			<p style="font-size: 0.85em; color: #888;">11月利润</p>
-                    <img src="亚马逊/11月利润.png" class="my-img">
-                </section>
-
-		<section>
-                    <h2>成果展示：自制BI报表</h2>
-			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
-                    <img src="BI/BI1.png" class="my-img">
-                </section>
-		<section>
-                    <h2>成果展示：自制BI报表</h2>
-			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
-                    <img src="BI/BI2.png" class="my-img">
-                </section>
-		<section>
-                    <h2>成果展示：自制BI报表</h2>
-			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
-                    <img src="BI/BI3.png" class="my-img">
-                </section>
-		<section>
-                    <h2>成果展示：自制BI报表</h2>
-			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
-                    <img src="BI/BI4.png" class="my-img">
-                </section>
-
-		<section>
+                    <img src="亚马逊/11月利润.png" style="max-height: 300px;.slide-card;">
+        		</section>
+				<section>
                     <h2>成果展示：华为获奖</h2>
-                    <img src="华为/金网络.png" class="my-img">
+                    <img src="华为/金网络.png" style="max-height: 500px;.slide-card;"  >
                 </section>
 
             </section>
 
+
+
+<!--BI报表展示-->
+<section>
+    			<h2>自制数据报表</h2>
+    			<section>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+			<p style="font-size: 0.85em; color: #888;">说明：非专业美工，主打能用就行，美观度有待提升。。。</p>
+                    <img src="BI/BI1.png" style="max-height: 500px;.slide-card;">
+                </section>
+		<section>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI2.png" style="max-height: 500px;.slide-card;">
+                </section>
+		<section>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI3.png" style="max-height: 500px;.slide-card;">
+                </section>
+		<section>
+			<p style="font-size: 0.85em; color: #888;">可交互、可视化数据报表</p>
+                    <img src="BI/BI4.png" style="max-height: 500px;.slide-card;">
+                </section>
+
+</section>
+
 <section>
 <!--视频展示-->
-<section>
+				<section>
     			<h2>TK爆款视频案例</h2>
-    			<video width="50%" controls muted playsinline>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         		<source src="SZT012爆款.mp4" type="video/mp4">
         		您的浏览器不支持 HTML5 视频标签。
     			</video>
     			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">410W播放量，单日最高1.5w美金，广告持续跑近1年</p>
-		</section>
-		<section>
+				</section>
+				<section>
     			<h2>AI视频案例1</h2>
-    			<video width="50%" controls muted playsinline>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         		<source src="床头柜AI视频.mp4" type="video/mp4">
         		您的浏览器不支持 HTML5 视频标签。
     			</video>
     			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">实拍视频素材库+AI扩量案例</p>
-		</section>
-		<section>
+				</section>
+				<section>
     			<h2>AI视频案例2</h2>
-    			<video width="50%" controls muted playsinline>
+    			<video width="25%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         		<source src="梳妆台AI视频.mp4" type="video/mp4">
         		您的浏览器不支持 HTML5 视频标签。
     			</video>
     			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">实拍视频素+AI换脸对口型案例</p>
-		</section>
-		<section>
+				</section>
+				<section>
     			<h2>纯AI视频案例</h2>
-    			<video width="50%" controls muted playsinline>
+    			<video width="60%" controls style="border: 2px solid #ccc; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         		<source src="无产品纯AI视频.mp4" type="video/mp4">
         		您的浏览器不支持 HTML5 视频标签。
     			</video>
     			<p style="font-size: 0.8em; color: #666; margin-top: 10px;">无实际产品，无3D模型，根据网图搓视频，业余帮朋友做的，美区ToB外贸公司，用于会议介绍产品(成功获客)</p>
-
-
-</section>
+				</section>
 
 </section>
 
