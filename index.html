@@ -2,10 +2,19 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+	<!-- 关键：添加 viewport，告诉手机按屏幕宽度渲染，不要缩小 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>吴浩宇 - 个人简历与作品集</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/league.css">
 <style>
+		/* 修复移动端文字过小问题 */
+        @media screen and (max-width: 600px) {
+            h1 { font-size: 1.8em !important; }
+            h2 { font-size: 1.5em !important; }
+            p, li { font-size: 0.9em !important; }
+            .reveal .controls { transform: scale(1.5) !important; } /* 移动端按钮调小一点 */
+        }
         /* 保持原版的深色酷炫，但给图片和容器加上精致的框 */
         .slide-card {
             background: rgba(255, 255, 255, 0.05); /* 半透明深色卡片 */
